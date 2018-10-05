@@ -1,0 +1,14 @@
+# Before we run the application we need to set environment variable to the file that we want to be our flask application.
+
+    - export FLASK_APP=flaskblog
+
+# To run the server: flask run
+
+# to run in debuf mode: "export FLASK_DEBUG=1" and then "flask run"
+
+# if we dont want to use all these environment variable the better way is to put
+    if __name__ == "__main__":
+    app.run(debug=True)
+
+    and now we can call the script direclty
+        - python flaskblog.py
